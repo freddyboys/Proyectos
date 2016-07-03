@@ -1,0 +1,24 @@
+C:\Users\Multimedia\Documents\Visual Studio 2010\Projects\WinAppFunctions\WinAppFunctions\bin\Debug\WinAppFunctions.exe
+C:\Users\Multimedia\Documents\Visual Studio 2010\Projects\WinAppFunctions\WinAppFunctions\bin\Debug\WinAppFunctions.pdb
+C:\Users\Multimedia\Documents\Visual Studio 2010\Projects\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.csprojResolveAssemblyReference.cache
+C:\Users\Multimedia\Documents\Visual Studio 2010\Projects\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.frmCuadraticFunction.resources
+C:\Users\Multimedia\Documents\Visual Studio 2010\Projects\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.frmMenu.resources
+C:\Users\Multimedia\Documents\Visual Studio 2010\Projects\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.Properties.Resources.resources
+C:\Users\Multimedia\Documents\Visual Studio 2010\Projects\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.csproj.GenerateResource.Cache
+C:\Users\Multimedia\Documents\Visual Studio 2010\Projects\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.exe
+C:\Users\Multimedia\Documents\Visual Studio 2010\Projects\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.pdb
+C:\Users\Multimedia\Documents\Visual Studio 2010\Projects\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.frmRoseFourPetals.resources
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.csprojResolveAssemblyReference.cache
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.frmCoseno.resources
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.frmCuadraticFunction.resources
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.frmFuncion.resources
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.frmMenu.resources
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.frmRoseFourPetals.resources
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.frmSeno.resources
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.frmTangente.resources
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.Properties.Resources.resources
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.csproj.GenerateResource.Cache
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\bin\Debug\WinAppFunctions.exe
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\bin\Debug\WinAppFunctions.pdb
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.exe
+C:\Users\johana\Dropbox\materias\compu grafica\2\WinAppFunctions\WinAppFunctions\obj\x86\Debug\WinAppFunctions.pdb

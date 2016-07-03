@@ -1,0 +1,10 @@
+C:\Users\PCOFME\Desktop\Unity Tempo\RecoCSharp\RecoServeur\bin\x64\Release\RecoServeur.exe
+C:\Users\PCOFME\Desktop\Unity Tempo\RecoCSharp\RecoServeur\bin\x64\Release\RecoServeur.pdb
+C:\Users\PCOFME\Desktop\Unity Tempo\RecoCSharp\RecoServeur\obj\x64\Release\ResolveAssemblyReference.cache
+C:\Users\PCOFME\Desktop\Unity Tempo\RecoCSharp\RecoServeur\obj\x64\Release\RecoServeur.exe
+C:\Users\PCOFME\Desktop\Unity Tempo\RecoCSharp\RecoServeur\obj\x64\Release\RecoServeur.pdb
+C:\Users\johana\Documents\udp\RecoServeur\bin\x64\Release\RecoServeur.exe
+C:\Users\johana\Documents\udp\RecoServeur\bin\x64\Release\RecoServeur.pdb
+C:\Users\johana\Documents\udp\RecoServeur\obj\x64\Release\RecoServeur.csprojResolveAssemblyReference.cache
+C:\Users\johana\Documents\udp\RecoServeur\obj\x64\Release\RecoServeur.exe
+C:\Users\johana\Documents\udp\RecoServeur\obj\x64\Release\RecoServeur.pdb
