@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+	<html>
+
+	  <head>
+
+		<style type="text/css">
+
+		  * { 
+			margin: 0; border: none; padding: 0; 
+			
+		  }
+
+		  @page {
+		  			
+			size: A4 portrait;
+			margin: 20mm;
+            margin-bottom: 30mm;
+			
+			@top-center {
+			  content: element(top-center);
+			  padding: 1mm; border: 1px solid white;
+			}
+			
+			 @bottom-center {
+			  content: element(bottom-center);
+			  padding: 20mm; border: 1px solid white;
+			}
+			
+			@right-middle {
+			  content: element(right-middle);
+			  padding: 20mm; border: 1px solid white; 
+			}
+			@right-bottom {
+			  content: element(right-bottom);
+			  padding: 20mm; border: 1px solid white; 
+			}
+			@right-top {
+			  content: element(left-top);
+			  padding: 20mm; border: 1px solid white;
+			}
+			@bottom-right-corner {
+			  content: element(bottom-right-corner);
+			  padding: 20mm; border: 1px solid white; 
+			}
+			@bottom-right {
+			  content: element(bottom-right);
+			   border: 1px solid white; 
+			}
+		   
+			@bottom-left {
+			  content: element(bottom-left);
+			  padding: 20mm; border: 1px solid white;
+			}
+			@bottom-left-corner {
+			  content: element(bottom-left-corner);
+			  padding: 20mm; border: 1px solid white;
+			}
+			@left-bottom {
+			  content: element(left-bottom);
+			  padding: 30mm; border: 1px solid white; 
+			}
+			@left-middle {
+			  content: element(left-middle);
+			  padding: 30mm; border: 1px solid white; 
+			}
+			@left-top {
+			  content: element(left-top);
+			  padding: 30mm; border: 1px solid white;
+			}
+		  }
+
+
+			  
+		  #top-center          { position: running(top-center);          }
+		 
+		  #right-top           { position: running(right-top);           }
+		  #right-middle        { position: running(right-middle);        }
+		  #right-bottom        { position: running(right-bottom);        }
+		  #bottom-right-corner { position: running(bottom-right-corner); }
+		  #bottom-right        { position: running(bottom-right);        }
+		  #bottom-center       { position: running(bottom-center);       }
+		  #bottom-left         { position: running(bottom-left);         }
+		  #bottom-left-corner  { position: running(bottom-left-corner);  }
+		  #left-bottom         { position: running(left-bottom);         }
+		  #left-middle         { position: running(left-middle);         }
+		  #left-top            { position: running(left-top);            }
+		  
+		 p { margin-bottom: 3mm; }
+		  
+		  
+		  p.saltodepagina
+           {
+           page-break-after: always;
+           }
+		    		  		  
+		td{
+			line-height: 9pt;
+
+		}
+		#vertical-bar {
+        border-left: 1px solid black;
+        width:1px;
+        height:20px;
+        }
+		
+		table{
+			font-size:10px;
+			cellspacing:1;
+			line-height:1.5em;
+			font-style:century gothic;
+			font-family: Palatino,'Palatino Linotype',Georgia, sans-serif;
+		}		
+		hr {
+           height: 2px;
+           background-color: black;
+           }
+		 #prueba {margin: 1px 0 1px 0;}
+		 .pagenum:before { content: counter(page) " de " counter(pages); }
+		 
+		 .Hlinea td{
+			 line-height: 15px;
+		 }
+		  
+		</style>
+
+	  </head>
+
+	  <body>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+	    
+<p id="top-center">
+	<table  width="100%"  border="0" cellpadding="0" style="border: 0px solid #BEBABA;" align="left">
+		<tr> 
+			<td width="30%" align="center"><img  style="background-size: cover; " align="center" src="PLANTILLA_CUERPOINMUEBLE_LOGO_EMPRESA" width="110px"   /></td> 
+			<td id="vertical-bar" width="35%" align="center" ><img style="background:cover; "  align="center" src="PLANTILLA_CUERPOINMUEBLE_LOGOCLIENTE" width="90px"  /></td>
+			<td  style="width: 33%; padding-left: 5px; border-left: 1px solid #000000; ">              
+				<b>PLANTILLA_CUERPOINMUEBLE_NOMBRE_EMPRESA</b><br/>                
+			    <b>ANEXO DE ACTIVO INMUEBLE</b><br/>                
+				Fecha: PLANTILLA_CUERPOINMUEBLE_FECHA_ACTUAL <br/>                
+				Revisión:PLANTILLA_CUERPOINMUEBLE_REVISION</td>
+		</tr> 
+				 
+	</table>
+		
+</p>
+<p id="bottom-right">
+    <table  width="100%" style="text-align: right; line-height: 0%;">  
+        <tr>
+      <td style="font-size:7px;">PLANTILLA_CUERPOINMUEBLE_CODIGO_ORDEN</td>
+  </tr>
+  <tr>
+      <td style="font-size:7px;">N°: PLANTILLA_CUERPOINMUEBLE_NUMAVAL</td>
+  </tr><tr>
+      <td style="font-size:7px;"><span class="pagenum"></span></td>			   
+  </tr>
+</table>
+</p>
+      
+	 <table  width="100%"  border="0" cellpadding="0" style="border: 0px solid #BEBABA;" bgcolor= "#AEB6BF"> 
+	 <tr>
+	<td width="100%" border="0"><div align="center" style="color:#FDFEFE; font-size:14px; font-style:georgia;"><strong>INFORME DE TASACIÓN</strong></div></td>
+   </tr>
+     </table><br></br><br></br>
+
+     <table  width="100%"  border="0" cellpadding="0" >
+        <tr>
+            <td width="25%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><h4>Instituci&#243;n:</h4></td>
+            <td width="30%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left">EP PETROECUADOR</div></td>
+            <td width="1%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+            <td width="25%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><h4>Nombre del propietario:</h4></td>
+            <td width="30%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left">PLANTILLA_CUERPOINMUEBLE_SITLEG_AFAVOR</div></td>
+         </tr>
+         
+         <tr>
+         
+            <td width="25%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><h4>Oficina:</h4></td>
+            <td width="30%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left">PLANTILLA_CUERPOINMUEBLE_AGENCIA</div></td>
+            <td width="1%" style="border-collapse:collapse; line-height: 1.5em; border:none; border:0px" border="0"> </td>
+            <td width="25%" style="border-collapse:collapse; line-height: 1.5em; border:none; border:0px" border="0"><h4>Nombre cliente:</h4></td>
+            <td width="30%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left">PLANTILLA_CUERPOINMUEBLE_CLIENTE</div></td>
+            
+         </tr>
+         
+         <tr>
+         
+            <td width="25%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><h4>Finalidad de aval&#250;o:</h4></td>
+            <td width="30%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left">PLANTILLA_CUERPOINMUEBLE_FINALIDAD</div></td>
+         <td width="1%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+         <td width="25%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><h4>Tel&#233;fono del cliente:</h4></td>
+         <td width="30%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left">PLANTILLA_CUERPOINMUEBLE_TELEFONO_CLIENTE</div></td>
+            
+         </tr>
+         <tr>
+         
+            <td width="25%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><h4>Propósito del aval&#250;o:</h4></td>
+            <td width="30%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left">PLANTILLA_CUERPOINMUEBLE_FINALIDAD</div></td>
+         <td width="1%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+            <td width="25%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><h4>Fecha del avalúo:</h4></td>
+         <td width="30%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"> PLANTILLA_CUERPOINMUEBLE_FECHA_INSPECCION</div></td>
+     
+         </tr>
+		  <tr>
+         
+            <td width="25%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><h4></h4></td>
+            <td width="30%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+         <td width="1%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+            <td width="25%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><h4>Fecha de asignaci&#243;n:</h4></td>
+         <td width="30%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left">PLANTILLA_CUERPOINMUEBLE_FECHA_ASIGNACION</div></td>
+     
+         </tr>         
+     </table><br></br>
+	 <table style="width:100%; padding-left:10%">
+		 <tr>
+			<td><b>TIPO DE BIEN: </b>PLANTILLA_CUERPOINMUEBLE_TIPO_BIEN
+			</td>
+		</tr>
+		 <tr>
+			<td><b>TIPO DE PROPIEDAD: </b>PLANTILLA_CUERPOINMUEBLE_PROPIEDADTIPO
+			</td>
+		</tr>
+	 
+	 </table>
+	  
+<br></br>
+	 <table style="width:100%; padding-left:10%">
+		 <tr>
+			<td style="width:50%; "><b>Área terreno en sitio: </b>PLANTILLA_CUERPOINMUEBLE_AREAENSITIO&#160; PLANTILLA_CUERPOINMUEBLE_UMEDIDA_TERRENO</td>
+			<td style="width:50%; "><b>Área terreno en escritura: </b>PLANTILLA_CUERPOINMUEBLE_AREAESCRITURA&#160; PLANTILLA_CUERPOINMUEBLE_UMEDIDA_TERRENO</td>
+		</tr>
+		 <tr>
+			<td colspan="2"><b>Área de construcción cubierta: </b>PLANTILLA_CUERPOINMUEBLE_METROS_CONSTRUCCION&#160; m<sup>2</sup></td>
+		</tr>
+	 
+	 </table>
+	   <br></br>
+      <table  width="100%"  border="0" cellpadding="0" bgcolor= "#D5D8DC"> 
+            <b>1.- UBICACIÓN Y ESQUEMA:</b>
+        </table><br></br>
+        <table style="width:100%; padding-left:7%; ">
+				<tr>
+					<td width="50%" ><b>1.1. Ubicación.</b></td>
+					<td width="50%" ><b>1.3. Vista general.</b> </td>
+				</tr>
+				<tr>
+					<td width="50%" ><br/><b>Dirección</b></td>
+					<td width="50%" rowspan="11" >
+						<img  align="center" src="PLANTILLA_CUERPOINMUEBLE_IMAGEN_ACCESO" width="300px" height="200px"/>
+						<!-- <br/><img  align="center" src="PLANTILLA_CUERPOINMUEBLE_IMAGEN_UBICACION" width="300px" height="200px"/> -->
+						
+					</td>
+				</tr>
+				<tr>
+					<td style="width:50%; ">PLANTILLA_CUERPOINMUEBLE_DIRECCION_BIEN</td>
+				</tr>
+				
+				<tr>
+					<td style="width:50%; line-height: 5pt;"><br/><b>Provincia:</b>&#160;PLANTILLA_CUERPOINMUEBLE_PROVINCIA</td>
+				</tr>
+				<tr>
+					<td style="width:50%; line-height: 5pt;"><br/><b>Cantón:</b>&#160;&#160;&#160;&#160;PLANTILLA_CUERPOINMUEBLE_CANTON</td>
+				</tr>
+				<tr>
+					<td style="width:50%; line-height: 5pt;"><br/><b>Ciudad:</b>&#160;&#160;&#160;&#160;PLANTILLA_CUERPOINMUEBLE_CIUDAD</td>
+				</tr>
+				<tr>
+                    <td style="width:50%; line-height: 5pt;"><br/><b>Parroquia actual:</b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PLANTILLA_CUERPOINMUEBLE_PARROQUIA_ACTUAL</td>
+					
+                </tr>
+                <tr>
+                   <td style="width:50%; line-height: 5pt;"><br/><b>Parroquia escritura:</b>&#160;&#160;&#160;PLANTILLA_CUERPOINMUEBLE_PARROQUIA_ESCRITURA</td>
+                </tr>
+                <tr>
+                    <td style="width:50%; line-height: 5pt;"><br/><b>Código Catastral:</b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PLANTILLA_CUERPOINMUEBLE_COD_CATASTRAL</td>
+                </tr>
+				<tr>
+					<td style="width:50%"> <br/><br/><br/><b>1.2. Ubicaci&#243;n geográfica:</b><br/></td>
+				
+				</tr>
+				<tr>
+					<td style="width:50%;line-height: 5pt;"> <br/><b>Latitud:</b>&#160;PLANTILLA_CUERPOINMUEBLE_LATITUD</td>
+				</tr>
+				<tr>
+					<td style="width:50%;line-height: 5pt;"> <br/><b>Longitud:</b>&#160;PLANTILLA_CUERPOINMUEBLE_LONGITUD</td>
+				</tr>
+					<tr>
+					<td style="width:50%"> <br/></td>
+				</tr>
+        </table>
+<br/>
+
+
+<table  width="100%"  border="0" cellpadding="0" bgcolor= "#D5D8DC"> 
+	<b>2.- SITUACI&#211;N LEGAL:</b>
+</table><br></br>
+
+	<table  width="100%"  border="0" cellpadding="0" >
+	  <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	   <td width="30%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><strong>2.1. Régimen de propiedad.</strong></td>
+		<td width="20%" colspan="5" border="0"><div align="left" style="font-size:10px; font-style:georgia; line-height: 1.5em;">PLANTILLA_CUERPOINMUEBLE_TIPO_PROPIEDAD</div></td>
+		 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>   
+	  </tr>
+	  <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	   <td width="20%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><div align="left"><strong>2.2. Documentación legal.</strong></div></td>
+		<td width="20%" colspan="5" style="border-collapse:collapse; line-height: 1.5em; border:none; border:0px" border="0"> </td>
+		 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr> 
+	   <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em;border:0px" border="0"> </td>
+	   <td width="20%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><b>Tipo:</b></td>
+		<td width="20%" colspan="5"><div align="left" style="font-size:10px; font-style:georgia; line-height: 1.5em;">PLANTILLA_CUERPOINMUEBLE_SITLEG_TIPO</div></td>
+		 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr> 
+	   <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	   <td width="20%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><b>Otorgada por:</b></td>
+		<td width="20%" colspan="5"><div align="left" style="font-size:10px; font-style:georgia; line-height: 1.5em;">PLANTILLA_CUERPOINMUEBLE_OTORGADOPOR</div></td>
+		 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr> 
+	   <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	   <td width="20%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><b>A favor de:</b></td>
+		<td width="100%" colspan="1"><div align="left" style="font-size:10px; font-style:georgia; line-height: 1.5em;">PLANTILLA_CUERPOINMUEBLE_SITLEG_AFAVOR&#160;PLANTILLA_CUERPOINMUEBLE_HIPOTECARIO</div></td>
+		 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr> 
+	   <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	   <td width="20%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><b>Notar&#237;a:</b></td>
+		<td width="70%" colspan="5"><div align="left" style="font-size:10px; font-style:georgia; line-height: 1.5em;">PLANTILLA_CUERPOINMUEBLE_SITLEG_NOTARIA / PLANTILLA_CUERPOINMUEBLE_SITLEG_NOTARIO</div></td>
+		 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>   
+	  <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em;border:0px" border="0"> </td>
+	   <td width="20%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><b>Fecha:</b></td>
+		<td width="20%" colspan="5" style="border: 0px solid #BEBABA; line-height: 1.5em;"><div align="left">PLANTILLA_CUERPOINMUEBLE_SITLEG_FECHA</div></td>
+		 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	   <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	   <td width="20%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><b>Fecha de inscripción:</b></td>
+		<td width="20%" colspan="5" style="border: 0px solid #BEBABA; line-height: 1.5em;"><div align="left">PLANTILLA_CUERPOINMUEBLE_SITLEG_INSCRIPCIONFECH</div></td>
+		 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	</table>
+<table  width="100%"  border="0" cellpadding="0" > 
+	<tr>
+		<td width="7%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+	   <td width="35%" style="border-collapse:collapse; border:none; border:0px" border="0"><b>2.3. Observaciones de linderos.</b></td>
+	   <td width="20%" style="border: 0px solid #BEBABA;" ><div align="center"></div></td>
+		<td width="6%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+	   <td width="30%" style="border-collapse:collapse; border:none; border:0px" border="0"></td>
+		<td width="20%" style="border: 0px solid #BEBABA;" ><div align="center"></div></td>
+		 <td width="7%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+	  </tr>
+	
+    </table>
+	<table  width="100%"  border="0" cellpadding="0" > 
+	<tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	   <td width="100%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" align="justify">PLANTILLA_CUERPOINMUEBLE_OBSERLINDEROS</td>
+	   <td width="20%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="center"></div></td>
+		<td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em;border:0px" border="0"> </td>
+	   <td width="30%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+		<td width="20%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="center"></div></td>
+		 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	
+    </table>
+
+	
+	<table  width="100%"  border="0" cellpadding="0" > 
+	<tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	   <td width="100%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" align="justify"><b>El corte de la valoración es al 31/12/2019. </b></td>
+	   <td width="20%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="center"></div></td>
+		<td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em;border:0px" border="0"> </td>
+	   <td width="30%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+		<td width="20%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="center"></div></td>
+		 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	
+    </table>
+
+
+ <br></br>
+<table  width="100%"  border="0" cellpadding="0" bgcolor= "#D5D8DC"> 
+	<b>3.- DESCRIPCIÓN DE LA ZONA:</b>
+</table><br></br>
+<table class="Hlinea" style="width: 100%; padding-left: 7%;">
+	<tr>
+		<td style="width: 25%;"><b>3.1. Plusvalía:</b></td>
+		<td style="width: 75%;">
+		   PLANTILLA_CUERPOINMUEBLE_PLUSVALIA</td>
+	</tr>
+	<tr>
+	<td><b>3.2. Estrato socioeconómico:</b> </td>
+	<td>PLANTILLA_CUERPOINMUEBLE_ESTRATO</td>
+	</tr>
+</table>
+
+
+<table class="Hlinea" style="width: 100%; padding-left: 9%;">
+	<tr>
+		<td><b>Observaciones:</b></td>
+	</tr>
+	<tr>
+		<td style="text-align: justify;">PLANTILLA_CUERPOINMUEBLE_OBSZONA</td>
+	</tr>
+</table>
+	  
+<table class="Hlinea" style="width: 100%; padding-left: 7%;">
+	<tr>
+		<td style="width: 25%;"><b>3.3. Clasificación de la zona:</b></td>
+		<td style="width: 75%;">
+			PLANTILLA_CUERPOINMUEBLE_CLASIF_ZONA</td>
+	</tr>
+</table>
+<table class="Hlinea" style="width: 100%; padding-left: 9%;">
+	<tr>
+		<td style="width: 23%;"><b>3.3.1. Zonificación:</b></td>
+		<td style="width: 77%;">
+			PLANTILLA_CUERPOINMUEBLE_ZONA_CODIGO</td>
+	</tr>
+</table><br/>
+<table class="Hlinea" style="width: 100%; padding-left: 7%;">
+	<tr>
+		<td style="width: 15%;"><b>COS-PB</b></td>
+		<td style="width: 16%;">PLANTILLA_CUERPOINMUEBLE_ZONA_COSPB %</td>
+		<td style="width: 15%;"><b> Altura</b></td>
+		<td style="width: 16%;">PLANTILLA_CUERPOINMUEBLE_ZONA_ALTURA m.</td>
+		<td style="width: 15%;"><b> Frente mínimo</b></td>
+		<td style="width: 16%;">PLANTILLA_CUERPOINMUEBLE_ZONA_FENTEMIN m.</td>
+	</tr>	
+	<tr>
+		<td style="width: 15%;"><b>COS TOTAL</b></td>
+		<td style="width: 16%;">PLANTILLA_CUERPOINMUEBLE_ZONA_COSTOTAL %</td>
+		<td style="width: 15%;"><b> N° de pisos</b></td>
+		<td style="width: 16%;">PLANTILLA_CUERPOINMUEBLE_ZONA_NPISOS</td>
+		<td style="width: 15%;"><b> Lote mínimo</b></td>
+		<td style="width: 16%;">PLANTILLA_CUERPOINMUEBLE_ZONA_LOTEMIN m <sup>2</sup>. </td>
+	</tr>
+</table><br/>
+
+<table class="Hlinea" style="width: 100%; padding-left: 7%;">
+	<tr>
+		<td style="width: 40%;"><b>3.4. Nivel de consolidación del sector:</b></td>
+		<td style="width: 60%;">PLANTILLA_CUERPOINMUEBLE_CONSOLIDACION_ZONA</td>
+	</tr>
+	<tr>
+		<td style="width: 40%;"><b>3.5. Índice de saturaci&#243;n</b></td>
+		<td style="width: 60%;">PLANTILLA_CUERPOINMUEBLE_SATURACION</td>
+	</tr>
+	<tr>
+		<td style="width: 40%;"><b>3.6. Nivel de poblaci&#243;n:</b></td>
+		<td style="width: 60%;">PLANTILLA_CUERPOINMUEBLE_NIVELDEPOBLACION</td>
+	</tr>
+</table>
+<table class="Hlinea" style="width: 100%; padding-left: 7%;">
+	<tr>
+		<td ><strong>3.7. Facilidades de la zona:</strong></td>
+	</tr> 
+</table> 
+
+	<table style="width: 100%; padding-left: 7%; ">
+		<tr>
+			<td>
+				PLANTILLA_CUERPOINMUEBLE_FACILIDAD_ZONA
+			</td>
+		</tr>
+	</table>
+<table class="Hlinea" style="width: 100%; padding-left: 7%;">
+	<tr>
+		<td><b>La vía principal es:</b>&#160;&#160;&#160;&#160;PLANTILLA_CUERPOINMUEBLE_CALLE,&#160;&#160;material:&#160;&#160;PLANTILLA_CUERPOINMUEBLE_MATERIALCALLE ,  &#160;&#160;uso:&#160;&#160;PLANTILLA_CUERPOINMUEBLE_USOCALLE</td>
+	</tr>
+	<tr>
+		<td><b>Proyecci&#243;n:</b>&#160;&#160;&#160;&#160;PLANTILLA_CUERPOINMUEBLE_PROYECCION</td>
+	</tr>
+</table>	
+
+<table class="Hlinea" style="width: 100%; padding-left: 7%; ">
+	<tr>
+		<td ><b>3.8. Vulnerabilidad del sector:</b></td>
+		
+	</tr>
+	<tr>
+		<td>PLANTILLA_CUERPOINMUEBLE_VULNERABILIDAD</td>
+	</tr>
+	<tr>
+		<td><b>3.9. Características predominantes:</b></td>
+		
+	</tr>
+	<tr>
+		<td>En el sector predominan las PLANTILLA_CUERPOINMUEBLE_CARACTERISTICAPREDOMI</td>
+	</tr>
+	<tr>
+		<td><b>3.10. Características panorámicas:</b></td>
+		
+	</tr>
+	<tr>
+		<td>PLANTILLA_CUERPOINMUEBLE_CARACPANORAMICAS</td>
+	</tr>
+	<tr>
+		<td><b>3.11. Hitos de la zona:</b></td>
+		
+	</tr>
+	<tr>
+		<td>PLANTILLA_CUERPOINMUEBLE_HITOS_ZONA</td>
+	</tr>	
+	<tr>
+		<td><b>3.12. Equipamiento:</b></td>
+		
+	</tr>
+	<tr>
+		<td>PLANTILLA_CUERPOINMUEBLE_EQUIPAMIENTO</td>
+	</tr>
+</table>
+
+<br></br>
+<table  width="100%"  border="0" cellpadding="0" bgcolor= "#D5D8DC" > 
+	<b>4.- DESCRIPCIÓN DEL BIEN:</b>
+</table>
+<table  width="100%"  border="0" cellpadding="0" > 
+	    
+		<tr>
+			<td width="7%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+			<td width="100%" style="border-collapse:collapse; border:none; border:0px" border="0"><strong>4.1. Características del terreno donde se encuentra el inmueble:</strong></td>
+			<td width="7%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+	  </tr> 
+</table>
+
+<table  width="118%"  border="0" cellpadding="0" >      
+		<tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="11%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b>Forma:</b></td>
+			<td width="18%" style="border: 0px solid #BEBABA; line-height: 1.5em;">PLANTILLA_CUERPOINMUEBLE_DESCRIPCION_FORMA</td>
+		   <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			<td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			  <td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+		</tr> 
+		<tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="11%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b>Topografía:</b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;">PLANTILLA_CUERPOINMUEBLE_DESCRIPCION_TOPOGRAFIA</td>
+		   <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			<td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			  <td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+		</tr>  
+        <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="11%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b>Localización:</b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;">PLANTILLA_CUERPOINMUEBLE_DESCRIPCION_UBICACION</td>
+		   <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			<td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			  <td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em;border:0px" border="0"></td>
+			 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+		</tr> 		
+	</table>
+<table  width="100%"  border="0" cellpadding="0" >	
+	 <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+		<td width="0%" style="border-collapse:collapse; border:none; border:0px" border="0"><b>4.2. Tipo de propiedad:</b>&#160;&#160;&#160;PLANTILLA_CUERPOINMUEBLE_TIPO_BIEN</td>
+		<td width="0%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+		<td width="0%" style="border: 0px solid #BEBABA;" ><div align="left"></div></td>
+		<td width="0%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+	  </tr> 
+	  </table>
+	  <table  width="118%"  border="0" cellpadding="0" >      
+		<tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em;border:0px" border="0"> </td>
+			<td width="40%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b>Actividades desarrolladas dentro del inmueble:</b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;">PLANTILLA_CUERPOINMUEBLE_DESCRIPCION_ACTIVIDADES</td>
+		   <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em;border:0px" border="0"></td>
+			<td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			  <td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+		</tr> 		
+	</table>
+<table  width="100%"  border="0" cellpadding="0" >	
+
+	 <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+		<td width="0%" style="border-collapse:collapse; border:none; border:0px" border="0"><b>4.3. Caracter&#237;sticas de la edificación en estudio:</b></td>
+		<td width="0%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+		<td width="0%" style="border: 0px solid #BEBABA;" ><div align="left"></div></td>
+		<td width="0%" style="border-collapse:collapse; border:none; border:0px" border="0"> </td>
+	  </tr>
+	  </table>	 
+	  <table  width="114%"  border="0" cellpadding="0" >      
+		<tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="30%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b>N&#250;mero de construcci&#243;n:</b></td>
+			<td width="40%" style="border: 0px solid #BEBABA; line-height: 1.5em;"></td>
+		   <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			<td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			  <td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+		</tr> 		
+	</table>
+	<table  width="114%"  border="0" cellpadding="0" >      
+		<tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="30%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" >PLANTILLA_CUERPOINMUEBLE_DESCRIPCION_PLANTAS</td>
+			<td width="40%" style="border: 0px solid #BEBABA; line-height: 1.5em;"></td>
+		   <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			<td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			  <td width="10%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" ><b></b></td>
+			<td width="10%" style="border: 0px solid #BEBABA; line-height: 1.5em;" ><div align="left"></div></td>
+			 <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			 <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+		</tr> 		
+	</table>
+   <table  width="100%"  border="0" cellpadding="0" >	 
+
+		<tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="100%" colspan="3" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><strong>4.4. Descripción general del bien y distribución interna:</strong></td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>  
+</table>
+<table  width="100%" style="padding-left: 7%; text-align: justify;" >	
+		<tr>
+			
+			<td style="line-height: 10px;" >PLANTILLA_CUERPOINMUEBLE_DESCRIPCION_GENERAL</td>
+			
+	  </tr>
+	  </table>
+  <table  width="100%"  border="0" cellpadding="0" >
+	  
+	  <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="100%" colspan="3" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><strong>4.5. Estado de la edificación:</strong></td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	  </table>
+	  <table  width="100%"  border="0" cellpadding="0" >
+	  <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="100%" colspan="3" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" align="justify">PLANTILLA_CUERPOINMUEBLE_ESTADO_EDIFICACION</td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	  </table>
+	  <table  width="100%"  border="0" cellpadding="0" >
+	  <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="100%" colspan="3" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><strong>4.6. Áreas comunales / Servicios propios del inmueble:</strong></td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	  </table>
+	  <table  width="100%"  border="0" cellpadding="0" >
+	  <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="100%" colspan="3" style="border-collapse:collapse; line-height: 1.5em; border:none; border:0px" border="0">PLANTILLA_CUERPOINMUEBLE_AREAS_COMUNALES</td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	  </table>
+	  <table  width="100%"  border="0" cellpadding="0" >
+	  <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="100%" colspan="3" style="border-collapse:collapse; line-height: 1.5em; border:none; border:0px" border="0"><strong>4.7. Seguridad del inmueble:</strong></td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	  </table>
+	  <table  width="100%"  border="0" cellpadding="0" >
+	  <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+			<td width="100%" colspan="3" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0">PLANTILLA_CUERPOINMUEBLE_SEGURIDAD</td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+	  </tr>
+	  </table>
+	  <table  width="100%"  border="0" cellpadding="0" >
+	   <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="100%" colspan="3" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><strong>4.7.1. Seguridad contra incendios:</strong></td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	  </table>
+	  <table  width="100%"  border="0" cellpadding="0" >
+	  <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="100%" colspan="3" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0">PLANTILLA_CUERPOINMUEBLE_SEG_INCENDIOS</td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	  </table>
+	  <table  width="100%"  border="0" cellpadding="0" >
+	   <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="100%" colspan="3" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><strong>4.8. Descripción detallada:</strong></td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	</table>	
+ <table width="100%" border="0" cellpadding="0">   
+	<tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="100%" colspan="0" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> PLANTILLA_CUERPOINMUEBLE_ACLARACIONCONSTRUCCION</td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+</table>
+	  
+	<table style="width: 93%; padding-left:7%; "    >  
+   
+	  <tr>
+			
+			<td><strong>4.9. Nivel de acabados: </strong>PLANTILLA_CUERPOINMUEBLE_NIVEL_ACABADOS</td>
+			
+	  </tr>
+	</table>
+
+<br></br>
+
+
+<table width="100%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" cellpadding="0">  
+   
+PLANTILLA_CUERPOINMUEBLE_DESCRIPCION_PISO
+</table><br></br>
+
+
+
+
+	<table style="width: 91%; padding-left:9%; "    > 
+	  <tr >
+			<td><strong>4.9.1 Calidad de la construcci&#243;n: &#160;&#160;</strong>PLANTILLA_CUERPOINMUEBLE_CALIDADCONSTRUCCION</td>
+			
+	  </tr>
+	  </table>
+	  <table  width="100%"  border="0" cellpadding="0" >  
+	  <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="86%" colspan="3" style="border: 0px solid #BEBABA; line-height: 1.5em;"></td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	 
+	  <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="20%" colspan="3" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><strong>4.10. Clasificaci&#243;n y calidad del proyecto:&#160;&#160;</strong>PLANTILLA_CUERPOINMUEBLE_CLASIFICACIONPROYECT / PLANTILLA_CUERPOINMUEBLE_CALIDADPROYECTO</td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	   <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="20%" colspan="3" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><strong>4.11. Unidades rentables o susceptibles de rentarse:&#160;&#160;</strong>PLANTILLA_CUERPOINMUEBLE_UNIDRENTABLES</td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	  <tr>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+			<td width="86%" colspan="3" style="border: 0px solid #BEBABA; line-height: 1.5em;"></td>
+			<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+	  </tr>
+	</table>
+    <br></br><br></br>
+	
+<p class="saltodepagina"></p> 
+<table  width="100%"  border="0" cellpadding="0" bgcolor= "#D5D8DC" >
+	   <b>5.- AVALÚO :</b>
+</table><br></br><table  width="100%"  border="0" cellpadding="0"  >
+  <b>Tasaci&#243;n de Terreno</b>
+</table>
+<table width="100%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" cellpadding="0">  
+      <tr>
+<td width="10%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Concepto</center></b></td>
+<td width="10%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Avance de Obra</center></b></td>
+<td width="5%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Unidad</center></b></td>
+<td width="5%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>&#193;rea</center></b></td>
+<td width="5%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Edad</center></b></td>
+<td colspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Valor de reposición a Nuevo</center></b></td>
+<td colspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center> Valor razonable.</center></b></td>
+</tr>
+<tr>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>V/uni</center></b></td>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Total</center></b></td>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>V/uni</center></b></td>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Total</center></b></td>
+</tr>
+PLANTILLA_CUERPOINMUEBLE_RUBRODETALLADOTERRENO
+</table><br></br>
+
+<table  width="100%"  border="0" cellpadding="0"  >
+  <b>Tasaci&#243;n de Construcciones</b>
+</table>
+<table width="100%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" cellpadding="0">  
+      <tr>
+<td width="10%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Concepto</center></b></td>
+<td width="10%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Avance de Obra</center></b></td>
+<td width="5%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Unidad</center></b></td>
+<td width="5%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>&#193;rea</center></b></td>
+<td width="5%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Edad</center></b></td>
+<td colspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Valor de reposición a Nuevo</center></b></td>
+<td colspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center> Valor razonable.</center></b></td>
+</tr>
+<tr>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>V/uni</center></b></td>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Total</center></b></td>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>V/uni</center></b></td>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Total</center></b></td>
+</tr>
+PLANTILLA_CUERPOINMUEBLE_RUBRODETALLECONSTRUCCIONES
+</table><br></br>
+<table  width="100%"  border="0" cellpadding="0"  >
+  <b>Tasaci&#243;n de obras Adicionales</b>
+</table>
+<table width="100%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" cellpadding="0">  
+      <tr>
+<td width="10%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Concepto</center></b></td>
+<td width="10%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Avance de Obra</center></b></td>
+<td width="5%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Unidad</center></b></td>
+<td width="5%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>&#193;rea</center></b></td>
+<td width="5%" rowspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Edad</center></b></td>
+<td colspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Valor de reposición a Nuevo</center></b></td>
+<td colspan="2" style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center> Valor razonable.</center></b></td>
+</tr>
+<tr>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>V/uni</center></b></td>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Total</center></b></td>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>V/uni</center></b></td>
+<td style="border: 0.5px solid #BEBABA; font-size:8.5px" bgcolor= '#D5D8DC'><b><center>Total</center></b></td>
+</tr>
+PLANTILLA_CUERPOINMUEBLE_RUBRODETALLEMEJORAS
+</table><br></br>
+<table  width="100%"  border="0" cellpadding="0" bgcolor= "#D5D8DC">
+        <tr>
+                <td width="7%" style="border-collapse:collapse; border:none; border:0px" border="0"></td>
+             <td width="86%" style="border: 0px solid #BEBABA;"><center><h4>RESUMEN DE VALORES</h4></center></td>
+             <td width="7%" style="border-collapse:collapse; border:none; border:0px" border="0"></td>
+     </tr>
+    </table>
+    <br></br>
+   <table  width="100%" style=" border-collapse:collapse;alignment-adjust:middle;" border="0" cellpadding="0" > 
+        <tr>
+         <td width="7%" style="border-collapse:collapse; border:none;border:0px;" ></td>
+         <td width="20%" style="border-collapse:collapse; border:none; border: solid 1px #808080; background-color: #D5D8DC"><div align="center"><b>VALOR DE REPOSICIÓN A NUEVO</b></div></td>
+         <td width="20%" style="border-collapse:collapse; border:none; border: solid 1px #808080; background-color: #D5D8DC"><div align="center"><b>VALOR RAZONABLE</b></div></td>
+           <td width="7%" style="border-collapse:collapse; border:none; border:0px;"> </td>
+        </tr>
+        <tr>
+            <td width="7%" style="border-collapse:collapse; border:none; border:0px;"></td>
+            <td width="20%" style="border-collapse:collapse; border:none; border: solid 1px #808080;" ><div align="right">$ PLANTILLA_CUERPOINMUEBLE_TOTALVALORESFISICOS</div></td>
+            <td width="20%" style="border-collapse:collapse; border:none; border: solid 1px #808080;"><div align="right">$ PLANTILLA_CUERPOINMUEBLE_TOTALVALORESCOMERCIALIZACION</div></td>
+            <td width="7%" style="border-collapse:collapse; border:none; border:0px;"></td>
+     </tr>
+    </table>
+    <br></br>
+ <table width="100%" border="0" cellpadding="0">   
+	   <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+		<td width="50%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><div align="left"><b>     </b></div></td>
+		 </tr>
+	<tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>
+		<td width="20%" colspan="3" style="border: 0px solid #808080; line-height: 1.5em;" align="justify"><p>
+					   </p><br></br><dd><h4>Observaciones</h4></dd>
+					   <dd><p>PLANTILLA_CUERPOINMUEBLE_BIENOBSERVACION</p></dd></td>
+	</tr>
+	</table>
+	
+	<table width="100%" border="0" cellpadding="0">   
+	   <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+		<td width="30%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"><div align="left"><strong></strong></div></td>
+	   </tr>
+	   <tr>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+		<td width="20%" colspan="3" style="border: 0px solid #808080; line-height: 1.5em;"><p></p></td>
+	</tr>
+	</table>
+	<table style="width:93%; margin-left:7%;">
+		<tr>
+		<td>
+			<p style="text-align:justify; line-height:15px;">
+			
+			</p>
+		</td>
+	</tr>
+	</table><p class="saltodepagina"></p>
+	<table style="  line-height: 15px; padding-left:7%; width: 93%; ">
+		<tr>
+			<td><b>5.1. Análisis inmobiliario.</b> </td>
+		
+		</tr>
+	</table><br/>
+	<table style="  line-height: 15px; padding-left:9%; width: 91%; ">
+		<tr>
+			<td><b>5.1.1. Derecho:</b> </td>
+		
+		</tr>
+		<tr>
+			<td>En el presente informe de valoración se utiliza la documentación legal proporcionada por el cliente, PLANTILLA_CUERPOINMUEBLE_SITLEG_TIPO . </td>
+		
+		</tr>
+		<tr>
+			<td><br/><b>5.1.2. Deficiencia de mercado: </b>PLANTILLA_CUERPOINMUEBLE_DEFINICION_MERCADO </td>
+		
+		</tr>
+		<tr>
+			<td><br/><b>5.1.3. Bienes similares en venta (áreas, costo por m²)</b></td>
+		
+		</tr>
+	</table>
+	<table style="  line-height: 15px; padding-left:9%; width: 100%; ">
+			<tr>
+			<td><br/>PLANTILLA_CUERPOINMUEBLE_ANTECEDENTEPREDIO</td>
+		
+		</tr>
+	</table>
+	<table style="  line-height: 15px; padding-left:9%; width: 100%; ">
+		<tr>
+			<td><br/><b>5.1.4. Demanda de la zona: </b>PLANTILLA_CUERPOINMUEBLE_PLUSVALIA / PLANTILLA_CUERPOINMUEBLE_CONSOLIDACION_ZONA</td>
+		
+		</tr>
+		<tr>
+			<td><br/><b>5.1.5. Facilidad de liquidación: </b>PLANTILLA_CUERPOINMUEBLE_FACILIDAD_LIQUIDACION</td>
+		
+		</tr>
+		<tr>
+			<td><br/><b>5.1.6. Grupo económico que puede demandar el bien: </b>PLANTILLA_CUERPOINMUEBLE_GRUPO_ECONOMICO</td>
+		
+		</tr>
+	</table><br/>
+	<table style="  line-height: 15px; padding-left:7%; width: 100%; ">
+		<tr>
+			<td><br/><b>5.2. Valor catastral: </b>PLANTILLA_CUERPOINMUEBLE_VALOR_CATASTRAL</td>
+		
+		</tr>
+	</table>
+
+	
+	<br></br>
+	   <table width="100%" style=" border-collapse:collapse; border:none;alignment-adjust:middle; " border="0" cellpadding="0">
+                  <tr>
+                        <td width="2%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+                        <td width="50%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" align="right"><b>Valor de reposición a Nuevo:</b></td>
+                        <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+                        <td width="50%" style="border: 0px solid #BEBABA; line-height: 1.5em;"><div align="left">&#36;PLANTILLA_CUERPOINMUEBLE_TOTALVALORESFISICOS</div></td>
+                        <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+                      </tr> 
+	   <tr>
+		<td width="2%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+		<td width="50%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" align="right"><b>Valor razonable:</b></td>
+		<td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+		<td width="50%" style="border: 0px solid #BEBABA; line-height: 1.5em;"><div align="left">&#36;PLANTILLA_CUERPOINMUEBLE_TOTALVALORESCOMERCIALIZACION</div></td>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+      </tr>
+	
+      <tr>
+            <td width="2%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+            <td width="50%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" align="right"><b>Fecha de entrega:</b></td>
+            <td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+            <td width="50%" style="border: 0px solid #BEBABA; line-height: 1.5em;"><div align="left">PLANTILLA_CUERPOINMUEBLE_FECHA_ACTUAL</div></td>
+            <td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+          </tr> 
+	         
+	   <tr>
+		<td width="2%" style="border-collapse:collapse; border:none;  line-height: 1.5em; border:0px" border="0"></td>
+		<td width="50%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0" align="right"><b></b></td>
+		<td width="6%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+		<td width="50%" style="border: px solid #BEBABA; line-height: 1.5em;"><div align="center"> <br></br><b> </b><br></br>PLANTILLA_CUERPOINMUEBLE_REGISTRO_EMPRESA<br></br>PLANTILLA_CUERPOINMUEBLE_OFICIO_SUPERCOMPA<br></br>PLANTILLA_CUERPOINMUEBLE_OFICIO_SUPERBANCOS<br></br><b>PLANTILLA_CUERPOINMUEBLE_NOMBRE_EMPRESA</b></div></td>
+		<td width="7%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"></td>
+	  </tr> 
+	</table><br></br>		
+<table style="width:93%;padding-left:7%; ">
+		<tr>
+			<td style=" text-align:justify;"><b>Nota:</b> Este certificado es evidencia y reporta nuestros hallazgos al momento y lugar de la inspección. Nuestro informe está limitado únicamente a una inspección de las áreas accesibles y no puede determinar inconvenientes derivados de fallas internas en estructuras y componentes no visibles.
+		El presente informe tiene una vigencia de un año, pasado un plazo de 30 días después de su fecha de emisión, Acurio y Asociados dará por hecho su total aceptación. </td>
+		
+		</tr>
+</table>
+	
+	 
+<p class="saltodepagina"></p>
+<table  width="100%"  border="0" cellpadding="0" style="border: 0px solid #BEBABA;" bgcolor= "#AEB6BF"> 
+	 <tr>
+	<td width="100%" border="0"><div align="center" style="color:#FDFEFE;"><strong>ANEXO FOTOGRÁFICO</strong></div></td>
+   </tr>
+</table><br></br>
+<table  width="100%" border="0" cellpadding="0" > 
+        PLANTILLA_CUERPOINMUEBLE_IMAGENES_REGISTRO
+      </table>
+	
+<p class="saltodepagina"></p>
+<table  width="100%"  border="0" cellpadding="0" style="border: 0px solid #BEBABA;" bgcolor= "#AEB6BF"> 
+	 <tr>
+	<td width="100%" border="0"><div align="center" style="color:#FDFEFE;"><strong>ANEXO DE LINDEROS</strong></div></td>
+   </tr>
+     </table><br></br><br></br>	
+	 
+	 
+	<table style="width:100%">
+		<tr>
+			<td style="text-align:center;"><b>LINDEROS SEGÚN ESCRITURAS</b></td>
+		</tr>
+		<tr>
+			<td style="text-align:center;"><b>CUADRO DE LINDEROS DEL INMUEBLE</b></td>
+		
+		</tr>
+		
+	</table>
+	<br/>
+	<table style="	align-self: center;  margin-left: auto;  margin-right: auto;">
+		<tr>
+			<td style="width: 100%;" >PLANTILLA_CUERPOINMUEBLE_LINDERO_ESCRITURA</td>
+		</tr>
+		
+	</table>
+	<br/>
+	 
+	 
+
+	
+  <table  width="100%"  border="0" cellpadding="0" >  	  
+	  <tr>		
+	   <td style="border: 0px solid #BEBABA; line-height: 1.5em;" border="0">
+	   &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+	   &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+	   <b>&#193;rea en escritura:&#160;&#160;</b>PLANTILLA_CUERPOINMUEBLE_AREAESCRITURA&#160; PLANTILLA_CUERPOINMUEBLE_UMEDIDA_TERRENO</td>	   
+	  </tr> 
+	</table><br></br>
+
+
+
+
+
+	<table style="width:100%">
+		<tr>
+			<td style="text-align:center;"><b>LINDEROS COMPROBADOS EN SITIO</b></td>
+		</tr>
+		<tr>
+			<td style="text-align:center;"><b>CUADRO DE LINDEROS DEL INMUEBLE</b></td>
+		
+		</tr>
+		
+	</table>
+	<br/>
+	<table style="	align-self: center;  margin-left: auto;  margin-right: auto;">
+		<tr>
+			<td >PLANTILLA_CUERPOINMUEBLE_LINDERO_ENSITIO</td>
+		</tr>
+		
+	</table>
+	<br/>
+
+
+
+	
+
+	  <table  width="100%"  border="0" cellpadding="0" >  	  
+	  <tr>		
+	   <td style="border: 0px solid #BEBABA; line-height: 1.5em;" border="0">
+	   &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+	   &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+	   <b>&#193;rea en sitio:&#160;&#160;</b>PLANTILLA_CUERPOINMUEBLE_AREAENSITIO&#160;PLANTILLA_CUERPOINMUEBLE_UMEDIDA_TERRENO</td>	   
+	  </tr> 
+    </table>
+    <br></br>
+	
+	 <table  style="width: 80%; margin: 0 auto;" >  	  
+	  <tr>
+		<td width="1%" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" border="0"> </td>	
+	   <td style="border: 0px solid #BEBABA; line-height: 1.5em;" border="0" width="100%">PLANTILLA_CUERPOINMUEBLE_AREASRESUMEN</td>	   
+	  </tr> 
+	</table>
+	<br></br>
+	
+	<table  width="93%" style="padding-left:7%;" > 
+		<tr>
+			<td style="text-align: justify;"><b>Observaciones</b></td>
+		</tr>	
+		<tr>
+			<td style="text-align: justify;">PLANTILLA_CUERPOINMUEBLE_OBSERLINDEROS</td>
+		</tr>
+	</table><br/>
+	<table  width="100%"  border="0" cellpadding="0" style="border-collapse:collapse; border:none; line-height: 1.5em; border:0px" bgcolor= "#D5D8DC"> 
+            <b>ESQUEMA DE IMPLANTACIÓN</b>
+    </table><br></br>
+	<table  style=" margin: 0 auto;">		  
+        <tr>
+                <td  ><img style="width:550px; height:305px; margin: 0 auto;" src="PLANTILLA_CUERPOINMUEBLE_ESQUEMA_IMPLANTACION" />
+                </td>
+        </tr>
+    </table>
+	<table  width="93%" style=" padding-left:7%; " > 
+		<tr>
+			<td>
+				<p style="text-align:justify;"><b>Nota: </b> Esta ilustración es esquemática para uso exclusivo del presente avalúo, tal como lo solicita la normativa vigente, no está enfocada en un uso arquitectónico o estructural.</p>
+			</td>
+		</tr>	
+    </table>
+	 
+	
+
+	
+ </body>
+
+	</html>
